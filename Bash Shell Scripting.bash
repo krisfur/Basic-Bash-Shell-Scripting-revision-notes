@@ -74,6 +74,11 @@ on
 many lines
 END
 
+#python spanning many lines
+python<< END
+%some pytho code
+END
+
 
 #out of insert mode: gg to get to start, dG to delete all
 
@@ -173,5 +178,42 @@ else
   echo "$num is not between 1 and 10"
 fi
 #---------------
+
+
+
+#loops
+
+#for loop - works like a for loop in Python or for each in C#
+for i in $(ls); do
+	echo item $i
+done
+
+
+#while loop
+i = 0
+while [i -lt 10]; do #while i is less than 10
+	echo Counter is at $i
+	let i+=1
+done
+
+
+#until loop - reversed while loop
+COUNTER = 20
+until [COUNTER -lt 10]; do
+	echo COunter is at $COUNTER
+	let COUNTER-=2
+done
+
+
+
+
+
+
+
+
+
+
+
+
 
 
