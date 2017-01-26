@@ -76,7 +76,7 @@ END
 
 #python spanning many lines
 python<< END
-%some pytho code
+%some python code
 END
 
 
