@@ -103,7 +103,7 @@ demLocal()
 }
 demLocal
 echo "$name"
-#prints Dude as it is a blobal var, Mate is only within that functions
+#prints Dude as it is a global var, Mate is only within that functions
 
 
 
